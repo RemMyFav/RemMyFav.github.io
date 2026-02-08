@@ -320,52 +320,6 @@ function ResearchSection() {
             isProject: true,
             pngPreview: "cinemascope.png",
         },
-        {
-            title: "DeepPHQ",
-            description:
-                "Evaluating textual granularity for PHQ-8 depression severity prediction. The project studies how input representation and model architecture affect robustness when modeling depression severity from clinical interview transcripts.",
-            icon: "brain",
-            url: "https://github.com/RemMyFav/DeepPHQ",
-            isProject: true,
-            pngPreview: "deepphq.png",
-            pdfFile: "deepphq.pdf",
-        },
-        {
-            title: "Comparative Analysis of Unscented and Extended Kalman Filters",
-            description:
-                "This project explored two classical nonlinear filtering techniques—UKF and EKF—in probabilistic state estimation for robotics. We implemented both filters from scratch in Python and compared their accuracy, runtime efficiency, and numerical robustness across three nonlinear systems.",
-            icon: "activity",
-            url: "https://github.com/RemMyFav/UKF-vs-EKF-Analysis",
-            isProject: true,
-            pngPreview: "ukfvsekf.png",
-        },
-        {
-            title: "SynthWave-Maestro",
-            description:
-                "AI project generating seamless musical transitions between songs using RNNs. Implemented forward and backward LSTM models to compose bridge segments that connect song endings to beginnings, with automatic coherence verification.",
-            icon: "music",
-            url: "https://github.com/RemMyFav/synthwave-maestro",
-            isProject: true,
-            pngPreview: "synthwave.png",
-        },
-        {
-            title: "Handy-the-Mystic-Hand",
-            description:
-                "Gesture-based interface system controlling computer without mouse/keyboard using hand signs. Implemented ResNet50 embeddings, MediaPipe landmarks, and Random Forest classifier achieving 83% accuracy with customizable OS-level command mapping.",
-            icon: "hand",
-            url: "https://github.com/RemMyFav/Handy-the-Mystic-Hand",
-            isProject: true,
-            pngPreview: "handy.png",
-        },
-        {
-            title: "CinemaScopeAI",
-            description:
-                "Investigates whether single trailer frames can predict film budget and genres. Implemented dual-head CNN and VGG16 transfer learning approaches for multi-task prediction from IMDb Top 250 films using visual features.",
-            icon: "film",
-            url: "https://github.com/RemMyFav/CinemaScopeAI",
-            isProject: true,
-            pngPreview: "cinemascope.png",
-        },
     ];
 
     return React.createElement(
@@ -636,7 +590,7 @@ function CurriculumVitaeSection() {
             React.createElement(
                 "a",
                 {
-                    href: "cv.pdf",
+                    href: "HaikeYuCV.pdf",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     className: "cv-download-button",
